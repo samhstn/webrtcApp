@@ -1,0 +1,16 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.3.0",
+    "inert": "^3.2.0"
+  }
+}
