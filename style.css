@@ -1,0 +1,52 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+#contacts {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background: rgba(230, 230, 230, 1);
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+.contact, .contacts-title {
+  padding: 0px 15px 5px 15px;
+  float: left;
+  clear: both;
+  width: 250px;
+  height: 24px;
+  line-height: 24px;
+}
+.contacts-title {
+  margin-bottom: 5px;
+  padding: 5px 15px 5px 15px;
+  background: rgba(210, 210, 210, 1);
+}
+.contact-offer {
+  float: right;
+  line-height: 24px;
+  color: green;
+}
+.chatroom {
+  width: 25%;
+  min-width: 250px;
+  float: left;
+  margin: 15px;
+  overflow: hidden;
+}
+.chattitle {
+  padding: 0px 15px 5px 15px;
+  line-height: 24px;
+}
+.chatinput, input, textarea {
+  width: 100%;
+}
+.chatclose {
+  width: initial;
+  float: right;
+}
+textarea {
+  font-size: 10px;
+  color: #444;
+}
