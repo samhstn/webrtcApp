@@ -13,7 +13,7 @@ The app will have:
 First clone and cd into the WebRTC app as follows:
 
 ```bash
-git clone https://github.com/shouston3/webrtcApp.git && cd webrtcApp
+git clone https://github.com/shouston3/webrtcApp.git && cd webrtcApp && npm i
 ```
 
 You will need to add `cert.pem` and `key.pem` files to allow the hapi server to send https requests.
